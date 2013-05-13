@@ -6,7 +6,7 @@
 # 2013/05/03    Walter Chen     Added some log information to go with crontab
 # 2013/05/02	Walter Chen	Created this file
 
-Gaia_Ui_Test_Folder="/home/ypwalter/twqa-gaia-ui-tests/"
+Gaia_Ui_Test_Folder="/home/ypwalter/Autoupdate/twqa-gaia-ui-tests/"
 
 echo "Started to synchronize TW-QA gaia-ui-tests"
 
