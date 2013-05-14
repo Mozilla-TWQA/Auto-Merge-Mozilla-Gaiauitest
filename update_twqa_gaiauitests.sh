@@ -3,6 +3,7 @@
 #       This program is intended to update the gaia-ui-tests from Mozilla/gaia-ui-tests
 #
 # History:
+# 2013/05/14    Walter Chen     Modified it to do auto clone if folder not existed
 # 2013/05/03    Walter Chen     Added some log information to go with crontab
 # 2013/05/02	Walter Chen	Created this file
 
