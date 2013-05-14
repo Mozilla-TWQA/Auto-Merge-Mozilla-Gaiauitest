@@ -9,6 +9,13 @@
 echo "Started to synchronize TW-QA gaia-ui-tests"
 
 date
+
+test -d ${1}
+if [ $? == 1 ]; then
+    echo "You haven't clone it yet. Now doing clone"
+    git clone https://github.com/Mozilla-TWQA/gaia-ui-tests.git ${1}
+fi
+
 cd ${1}
 git pull --rebase mozilla-gaiauitests master
 git remote set-url origin git@github.com:Mozilla-TWQA/gaia-ui-tests.git
