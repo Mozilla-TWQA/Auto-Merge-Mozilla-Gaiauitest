@@ -1,6 +1,8 @@
 # You need to set this default script location
 Script_Location="/home/ypwalter/Autoupdate"
 
+cd ${Script_Location}
+
 Gaia_Ui_Test_Folder="${Script_Location}/twqa-gaia-ui-tests/"
 Log_Location="${Script_Location}/log/"
 Previous_Log="${Log_Location}crontab.log"
